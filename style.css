@@ -60,18 +60,16 @@ a {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 32px;
 }
 
 .main-box.hero {
   padding-top: 96px;
-  padding-bottom: 96px;
+  padding-bottom: 112px;
 }
 
 .hero-info {
   flex: 3;
-  min-width: 280px;
 }
 
 .hero-main-text {
@@ -91,6 +89,46 @@ a {
   justify-content: center;
   color: #e5e7eb;
   background-color: darkgray;
-  height: 320px;
-  min-width: 412px;
 }
+
+/* Information */
+
+.information {
+  padding-top: 80px;
+  padding-bottom: 96px;
+  text-align: center;
+}
+
+.information-header {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.information-content {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.container-img {
+  width: 100%;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+
+.secondary-text.container-subtext {
+  color: darkgray;
+}
+
+/* Quote */
